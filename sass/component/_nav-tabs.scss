@@ -1,0 +1,15 @@
+.tab{
+    &-section{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    &-link{
+      @include round_border_btn_mixin ($white, $red, $light-grey, $black);
+      margin-right: 10px;
+      @include mediaResponsive (sm) {
+        width: 48%;
+        margin: 10px 1%;
+      }
+    }
+  }

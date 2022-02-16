@@ -1,0 +1,26 @@
+.btn{
+    @include round_btn_mixin ($light-green, $white, normal)
+  }
+  .animated-btn{
+    animation: playShadow 1.6s ease-out .5s infinite;
+    // animation: name duration timing-function delay iteration-count direction fill-mode;
+  }
+  @keyframes playShadow {
+    0% {
+      box-shadow: 0 0 0 0px rgba($light-green, 0.3), 0 0 0 0px rgba($dark-green, 0.2);
+      //  transform: scale(1); 
+    }
+    10% {
+      box-shadow: 0 0 0 0px rgba($light-green, 0.3), 0 0 0 0px rgba($dark-green, 0.2);
+    }
+    35% {
+      //  transform: scale(1.08);
+    }
+    76% {
+      //  transform: scale(0.96); 
+    }
+    100% {
+      box-shadow: 0 0 0 16px rgba($dark-green, 0), 0 0 0 27px rgba($dark-green, 0);
+      //  transform: scale(1); 
+    }
+  }

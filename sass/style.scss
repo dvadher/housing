@@ -1,0 +1,25 @@
+// Abstrect Files
+@import './abstracts/colors';
+@import './abstracts/mixin';
+@import './abstracts/variables';
+
+// Base Files
+@import './base/typography';
+@import './base/global';
+@import './base/components.min';
+@import './base/bootstrap.min';
+@import './base/bootstrap-datepicker';
+
+// Component Files
+@import './component/buttons';
+@import './component/form-controls';
+@import './component/modals';
+@import './component/nav-tabs';
+@import './component/owl-carouse-min';
+
+// Layout Files
+@import './layouts/header';
+@import './layouts/footer';
+@import './layouts/side-bar';
+@import './layouts/checkbox';
+@import './layouts/property-detail';

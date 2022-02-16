@@ -1,0 +1,28 @@
+body{
+  .custom-form{
+    input{
+      border: 1px solid #CBCBCB;
+      box-sizing: border-box;
+      border-radius: 5px;
+      height:56px;
+    }
+    .form-btn{
+      background: #0198E1 !important;
+      border-radius: 5px;
+      width: 100% !important;
+      border-radius: 5px !important;
+      padding: 20px !important;
+      display: flex;
+    }
+    .form-i-group{
+      .form-icon{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+    }
+  }
+  .form-control:focus{
+    box-shadow: none;
+  }
+}

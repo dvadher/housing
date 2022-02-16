@@ -1,0 +1,109 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: $white;
+    touch-action: manipulation;
+    letter-spacing: normal;
+    line-height: 1.5;
+  }
+  button:focus{
+    outline:none !important;
+  }
+  body,
+  a,
+  p,
+  button,
+  h1,
+  h2,
+  h3,
+  h5,
+  h4,
+  h6,
+  p {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+  }
+  a{
+    &:hover{
+      text-decoration:none !important;
+    }  
+  }
+  h5, h4{
+    font-size:20px;
+    @include mediaResponsive(md){
+      font-size:18px;
+  }
+  }
+  .line-height-1 {
+    line-height: 1;
+  }
+  a{
+    text-decoration: none;
+    transition: all .3s ease;
+    color: $black;
+    &:hover{
+      color: $red;
+    }
+  }
+  .font-small, td{
+    font-size:14px !important;
+  }
+  .font-bold {
+    font-weight: 700;
+  }
+  .font-semi-bold{
+    font-weight: 600;
+  }
+  .font-medium {
+    font-weight: 500;
+  }
+  .font-regular {
+    font-weight: 400;
+  }
+  p,
+  a {
+    font-size: 14px;
+    line-height: 22px;
+    color: $black;
+    @include mediaResponsive(sm) {
+      font-size: 12px;
+    }
+  }
+  
+  .font-extra-small {
+    font-size: 10px;
+  }
+  .text-grey{
+    color: rgba(255, 255, 255, 0.4) !important;
+  }
+  .text-extra-light{
+    color: rgba(0, 0, 0, 0.6) !important;
+  }
+  .text-medium {
+    font-size: 16px;
+    line-height:18px;
+    @include mediaResponsive (lg) {
+      font-size: 14px;
+    }
+    @include mediaResponsive (sm) {
+      font-size: 12px;
+    }
+  }
+  .font-normal {
+    font-size: 18px;
+    @include mediaResponsive (lg) {
+      font-size: 16px;
+    }
+    @include mediaResponsive (sm) {
+      font-size: 14px;
+    }
+  }
+  .font-extra-large{
+    font-size: 60px;
+    @include mediaResponsive (lg) {
+      font-size: 40px;
+    }
+    @include mediaResponsive (md) {
+      font-size: 30px;
+    }
+  }
+ 

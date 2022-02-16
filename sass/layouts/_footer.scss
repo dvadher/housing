@@ -1,0 +1,23 @@
+.custom-footer{
+  border-top:1px solid #e1e1e1;
+  .footer-list-menu{
+    a{
+      font-style:italic;
+    }
+  }
+  .copyright{
+    p, a{
+      font-style:italic;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+  .copyright{
+    border-bottom:1px solid #e1e1e1;
+  }
+  a{
+    text-decoration:none;
+    &:hover{
+      color: $blue !important;
+    }
+  }
+}

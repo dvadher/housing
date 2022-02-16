@@ -1,0 +1,18 @@
+.property-detail-block{
+  .property-detail-menu{
+    a{
+      background: #fff;      
+      padding: 12px 20px;
+    }
+  }
+  .property-gallery{
+    img{
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .profile-link.active, .profile-link.show {
+    background: rgba(0, 0, 0, 0.04);
+    color: #0198E1 !important;
+  }
+}

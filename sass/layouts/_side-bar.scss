@@ -1,0 +1,30 @@
+.left-side-block{
+  .sticky-sidebar{
+    justify-content: center;
+    a{
+      @include mediaResponsive(md){
+        width: 25%;
+      }
+    }
+  }
+  border-right:1px solid #E8E8E8 !important;
+  .side-element{
+    .active-img{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      opacity:0;
+    }  
+    &:hover{
+      .active-img{
+        opacity:1;
+      } 
+    }
+  }
+  .active-link{
+    .active-img{
+      opacity: 1 !important;
+    }
+  }
+}
